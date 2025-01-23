@@ -11,7 +11,7 @@ jobs:
   build-and-test:
     runs-on: ubuntu-latest
 
-    setps:
+    steps:
       # ? Checkout code
       - name: Checkout python code
         uses: actions/checkout@v3
