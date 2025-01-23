@@ -13,5 +13,5 @@ def client():
 
 def test_home(client):
   response = client.get("/")
-  assert response.status.code == 200;
+  assert response.status_code == 200;
   assert response.get_json() == {"message": "Hello World"}
