@@ -1,5 +1,5 @@
 # ? Selecting the docker image
-FROM python3.10-slim
+FROM python:3.10-slim
 
 # ? Defining the workdir directory in the container
 WORKDIR /app 
