@@ -31,7 +31,7 @@ jobs:
       - name: Run tests cases for python app
         run: |
           source venv/bin/activate
-          pytest test
+          pytest tests
 
   docker-build-and-push:
     needs: build-and-test
