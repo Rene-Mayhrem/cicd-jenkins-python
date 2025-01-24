@@ -11,4 +11,4 @@ COPY . .
 # ? Exposing 5000 port of the cointainer
 EXPOSE 5000
 # ? Running the application 
-CMD ["python", "app/main.py"]
+CMD ["python", "src/main.py"]
